@@ -17,9 +17,9 @@ Namespace WJL1BlockTools
 
         Dim BlockTools As New BlockTools
         Public Sub Initialize() Implements IExtensionApplication.Initialize
-            Dim myDWG As Document
-            Dim myDB As Database = HostApplicationServices.WorkingDatabase()
-            myDWG = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument
+            'Dim myDWG As Document
+            'Dim myDB As Database = HostApplicationServices.WorkingDatabase()
+            'myDWG = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument
 
             Dim myEd As Editor = Application.DocumentManager.MdiActiveDocument.Editor
             myEd.WriteMessage(vbLf & "Initialising BlockTools commands...")
