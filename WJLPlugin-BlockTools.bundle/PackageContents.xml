@@ -5,19 +5,14 @@
       Author="WJLamb"
       Name="BlockTools"
       Icon="./Contents/Resources/BlockTools_32x32.bmp">
-   >
-  <CompanyDetails
-    Name="lambwill"
-        Url=""
-    Email="lambwill@gmail.com"
-  />
+   
+
   <Components>
-    <RuntimeRequirements SeriesMin="R19"/>
     <ComponentEntry
       AppName="BlockTools"
-      ModuleName="./Contents/2013/BlockTools.dll"
-      AppDescription="WJL Plugin: BlockTools"
-      LoadOnAutoCADStartup="False"
+      ModuleName="./Contents/2013/WJL_BlockTools.dll"
+      AppDescription="Block Tools"
+      LoadOnAutoCADStartup="True"
       LoadOnCommandInvocation="True"
       LoadOnRequest="True">
       <Commands GroupName="BlockTools">
@@ -30,25 +25,6 @@
       ModuleName="./Contents/Resources/BlockTools.cuix" />
   </Components>
   
-
-     <Components>
-       <RuntimeRequirements SeriesMin="R18" SeriesMax="R18.99"/>
-       <ComponentEntry
-         AppName="BlockTools"
-         ModuleName="./Contents/2012/BlockTools.dll"
-         AppDescription="WJL Plugin: BlockTools"
-         LoadOnAutoCADStartup="False"
-         LoadOnCommandInvocation="True"
-         LoadOnRequest="True">
-         <Commands GroupName="WJLPLUGINS">
-           <Command Local="BlockRealign" Global="BlockRealign" />
-           <Command Local="SuperExplode" Global="SuperExplode" />
-           </Commands>
-       </ComponentEntry>
-       <ComponentEntry
-         AppName="BlockTools"
-         ModuleName="./Contents/Resources/BlockTools.cuix" />
-     </Components>
      
      
   </ApplicationPackage>

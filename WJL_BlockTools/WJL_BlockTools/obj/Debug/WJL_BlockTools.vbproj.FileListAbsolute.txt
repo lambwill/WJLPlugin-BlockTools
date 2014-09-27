@@ -6,3 +6,6 @@ C:\Users\lambw\Documents\GitHub\WJLPlugin-BlockTools\WJL_BlockTools\WJL_BlockToo
 C:\Users\lambw\Documents\GitHub\WJLPlugin-BlockTools\WJL_BlockTools\WJL_BlockTools\obj\Debug\WJL_BlockTools.dll
 C:\Users\lambw\Documents\GitHub\WJLPlugin-BlockTools\WJL_BlockTools\WJL_BlockTools\obj\Debug\WJL_BlockTools.xml
 C:\Users\lambw\Documents\GitHub\WJLPlugin-BlockTools\WJL_BlockTools\WJL_BlockTools\obj\Debug\WJL_BlockTools.pdb
+C:\Users\lambw\Documents\GitHub\WJLPlugin-BlockTools\WJL_BlockTools\WJL_BlockTools\bin\Debug\WJL_BlockTools.dll
+C:\Users\lambw\Documents\GitHub\WJLPlugin-BlockTools\WJL_BlockTools\WJL_BlockTools\bin\Debug\WJL_BlockTools.pdb
+C:\Users\lambw\Documents\GitHub\WJLPlugin-BlockTools\WJL_BlockTools\WJL_BlockTools\bin\Debug\WJL_BlockTools.xml
